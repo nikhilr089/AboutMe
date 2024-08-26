@@ -1,0 +1,15 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; /* 10/16 = 625  (default browser font sixe is 16 where we need it to be 10)   rem works higer than ie 9*/
+}
+
+body {
+    box-sizing: border-box;
+}

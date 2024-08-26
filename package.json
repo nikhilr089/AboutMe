@@ -1,0 +1,15 @@
+{
+  "name": "nikhilr089.github.io",
+  "version": "1.0.0",
+  "description": "About Me",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/index.css -w"
+  },
+  "author": "Nikhil Ravi",
+  "license": "ISC",
+  "devDependencies": {
+    "emmet": "^2.4.7",
+    "node-sass": "^9.0.0"
+  }
+}
